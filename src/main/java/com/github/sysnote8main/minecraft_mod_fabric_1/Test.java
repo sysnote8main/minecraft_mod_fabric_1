@@ -1,4 +1,4 @@
-package com.github.sysnote8main.minecraft_mod_fabric_1.test;
+package com.github.sysnote8main.minecraft_mod_fabric_1.Test;
 
 import net.fabricmc.api.ModInitializer;
 
