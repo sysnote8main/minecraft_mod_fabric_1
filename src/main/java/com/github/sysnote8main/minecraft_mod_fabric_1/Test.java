@@ -1,8 +1,8 @@
-package com.github.sysnote8main.minecraft_mod_fabric_1.Test;
+package com.github.sysnote8main.minecraft_mod_fabric_1.TestMod;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class TestMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
