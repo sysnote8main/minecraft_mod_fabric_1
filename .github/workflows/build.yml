@@ -21,9 +21,9 @@ jobs:
         run: chmod +rwx ./build
       - name: Bump version and push tag
         id: tag_version
-        uses: wiktorj/github-tag-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: miguelfito/github-bump-and-tag-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
