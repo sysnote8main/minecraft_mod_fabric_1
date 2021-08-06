@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.sysnote8main.minecraft_mod_fabric_1.TestMod"
+      "com.github.sysnote8main.minecraft_mod_fabric_1.tesdic.TestMod"
     ]
   },
   "mixins": [
