@@ -30,7 +30,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
         with:
-          tag_name: beta
+          tag_name: ${{ github.ref }}
           release_name: Release 1.17.1 fabric mod
           draft: false
           prerelease: false
