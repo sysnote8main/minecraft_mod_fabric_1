@@ -1,4 +1,4 @@
-package com.github.sysnote8main.minecraft_mod_fabric_1.mixin;
+package com.github.sysnote8main.minecraft_mod_fabric_1.tesdic.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
